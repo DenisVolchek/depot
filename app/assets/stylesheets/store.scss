@@ -22,7 +22,7 @@
       margin-right: 5px;
       margin-bottom: 5px;
       position: absolute;
-          }
+    }
 
     h3 {
       font-size: 120%;
@@ -31,7 +31,7 @@
       margin-top: 0;
       margin-bottom: 2px;
       color: #227;
-          }
+    }
 
     p,
     div.price_line {
@@ -44,6 +44,18 @@
       color: #44a;
       font-weight: bold;
       margin-right: 3em;
+    }
+  }
+
+  p,
+  div.price_line {
+    margin-left: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+
+    form,
+    div {
+      display: inline;
     }
   }
 }
