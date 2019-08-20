@@ -11,8 +11,8 @@
 
   <body class='<%= controller.controller_name %>'>
     <div id="banner">
-      <% if session[:counter] > 5 %>
-        <span><%= session[:counter]  %></span>
+      <% if session[:counter] && session[:counter] > 5 %>
+        <span><%= session[:counter] %></span>
       <% end %>
       <%  #image_tag '7apps.jpg', alt: 'The Pragmatic Bookshelf' %>
       <span class="title"><%= @page_title %></span>
